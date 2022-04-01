@@ -15,7 +15,7 @@ module.exports = app => {
     Atendimento.buscaPorId(id, res)
 
   })
-
+  //att
   app.patch('/atendimentos/:id', (req, res) => {
 
     const id = parseInt(req.params.id)

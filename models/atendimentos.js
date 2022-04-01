@@ -67,7 +67,7 @@ class Atendimento {
       }
     })
   }
-
+  //att
   altera(id, valores, res) {
 
     if (valores.data) {
